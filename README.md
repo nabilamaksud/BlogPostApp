@@ -1,9 +1,9 @@
-##How ton build app on your machine
+## How ton build app on your machine
 1.Clone the repo
 2.run 'npm i'
 3.run 'npm run dev'
 
-#Visit Online
+# Visit Online
 ##[ScribbledSpectrum](https://scribbledspectrumblogpost.netlify.app/)
 
 
