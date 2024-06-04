@@ -62,7 +62,6 @@ button:hover {
   outline: none;
   border: none;
   background: #e0e0e0;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   line-height: 1rem;
   height: 3vh;
 }
@@ -89,7 +88,7 @@ button:hover {
   margin-left: 1rem;
   color: rgba(255, 0, 51, 0.699);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   nav{
     width: 95vw;
    }
