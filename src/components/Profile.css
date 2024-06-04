@@ -1,0 +1,44 @@
+.profile-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #e0e5ec;
+  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px #ffffff;
+  display: grid;
+  align-items: center;
+}
+.profile-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.profile-container p {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.profile-container label {
+  font-weight: bold;
+}
+
+.profile-container input,
+.profile-container textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: black;
+}
+.profile-container button {
+  width: 9rem;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

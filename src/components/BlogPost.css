@@ -1,0 +1,92 @@
+/* BlogPost.css */
+
+.blog-post-container {
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
+  border-radius: 5%;
+  display: grid;
+  grid-template-areas:
+    " textPart textPart thumbnail "
+    "commentPart commentPart commentPart ";
+}
+.blog_part2 {
+  grid-area: thumbnail;
+}
+.blog_part1 {
+  grid-area: textPart;
+}
+.comments-container {
+  grid-area: commentPart;
+}
+.btitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bimg {
+  width: 100%;
+  height: 15vh;
+  margin-bottom: 20px;
+  object-fit: cover;
+  background-color: aliceblue;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #fffefe, -20px -20px 60px #b3b3b3;
+}
+
+.bauthor {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.bbody {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.blikeButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  display: inline;
+}
+.btime {
+  font-size: 0.7rem;
+}
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+.blikeButton {
+  margin-right: 10px;
+}
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8f54a0;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
