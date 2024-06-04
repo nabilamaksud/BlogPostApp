@@ -88,7 +88,7 @@ button:hover {
   margin-left: 1rem;
   color: rgba(255, 0, 51, 0.699);
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   nav{
     width: 95vw;
    }
