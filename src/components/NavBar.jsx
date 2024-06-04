@@ -35,8 +35,8 @@ const NavBar = () => {
                 <img src={logo} className='logo' alt='logo' />
                 <span className='logo-text'>ScribbledSpectrum</span>
             </div>
-            <SearchBar />
-            <ul type="none">
+            <SearchBar className="seachbar" />
+            <ul type="none" className='Navlinks'>
                 <li>
                     <NavLink to="/">Home</NavLink>
                 </li>
