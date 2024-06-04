@@ -1,12 +1,12 @@
 nav {
-  width: 96vw;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 20px 200px 20px 20px;
   background-color: #ecd3d3;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ 
   position: fixed;
   top: 0;
   left: 0;
