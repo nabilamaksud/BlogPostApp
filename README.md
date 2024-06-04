@@ -1,10 +1,10 @@
 ## How ton build app on your machine
-1.Clone the repo
-2.run 'npm i'
-3.run 'npm run dev'
+1. Clone the repo
+2. run 'npm i'
+3. run 'npm run dev'
 
 # Visit Online
-##[ScribbledSpectrum](https://scribbledspectrumblogpost.netlify.app/)
+## [ScribbledSpectrum](https://scribbledspectrumblogpost.netlify.app/)
 
 
 # React + Vite
